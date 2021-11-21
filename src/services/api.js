@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const baseUrl = "https://pixabay.com/api/";
-const apiKey = "23539275-fb90155ac37cf87d4395ca2a5";
+const apiKey = "23515098-6ca4d9d130a27025c1d21d34d";
 
 
 export default async function useRequest(value, page) {

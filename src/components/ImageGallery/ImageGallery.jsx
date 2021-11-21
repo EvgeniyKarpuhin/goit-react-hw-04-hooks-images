@@ -5,10 +5,10 @@ function ImageGallery({ images, onClick }) {
   return (
     <ul className="ImageGallery">
       {images.map((item) => {
-        return <ImageGalleryItem item={item} onClick={onClick} />;
+        return <ImageGalleryItem item={item} onClick={onClick} />
       })}
     </ul>
-  );
+  )
 }
 
 export default ImageGallery;
