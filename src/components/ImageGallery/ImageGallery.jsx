@@ -3,7 +3,7 @@ import ImageGalleryItem from "../ImageGalleryItem/ImageGalleryItem";
 
 function ImageGallery({ images, onClick }) {
   return (
-    <ul>
+    <ul className="ImageGallery">
       {images.map((item) => {
         return <ImageGalleryItem item={item} onClick={onClick} />
       })}
